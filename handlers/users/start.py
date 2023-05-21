@@ -18,7 +18,7 @@ async def bot_start(message: types.Message):
         user=db.select_user(telegram_id=message.from_user.id)
 
 
-    await message.answer("Xush Kelibsiz")
+    await message.answer("Assalomu alaykum botga Xush Kelibsiz")
 
 
     #Adminga Xabar beramiz
